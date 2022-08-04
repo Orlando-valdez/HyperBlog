@@ -1,2 +1,4 @@
-hola esto es un texto plano, y me llamo Orlando. Mi edad es 19 años :).
-A el le gusta mucho la tecnologia, y los videos juegos.
+hola esto es un texto plano
+:).
+
+hoy aprenderemos a programar :D
