@@ -8,7 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Blogposts</h1>
+    <h1 id="tit">Blogposts</h1>
     <p>este es el parrafo de inicio</p>
+    <button onclick="clic('blue')" id="env-color">envio color</button>
+    <button onclick="color('blue')" id="color">color</button>
 </body>
+
+<script>
+    debugger
+    function clic(a) {
+        color(a)
+    }
+    a = "amor";
+    b = 2;
+    c = a+b;
+    console.log(c);
+    function color(c) {
+        var titl = document.getElementById("tit");
+        titl.style.color = c;
+        
+    }
+</script>
 </html>
